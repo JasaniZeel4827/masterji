@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/masterji/app/admin/courses/page.tsx"],"sourcesContent":["import Link from \"next/link\";\r\n\r\nexport default function CoursesPage() {\r\n  return (\r\n    <>\r\n      <div className=\"flex items-center justify-between\">\r\n        <h1 className=\"text-2xl font-bold\">Your Courses</h1>\r\n        <Link className={buttonVariants()} href=\"/admin/courses/create\">\r\n          Create Course\r\n        </Link>\r\n      </div>\r\n    </>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;YAAI,WAAU;;8BACb,8OAAC;oBAAG,WAAU;8BAAqB;;;;;;8BACnC,8OAAC,4JAAA,CAAA,UAAI;oBAAC,WAAW;oBAAkB,MAAK;8BAAwB;;;;;;;;;;;;;AAMxE","debugId":null}}]
+}

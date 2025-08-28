@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/middleware.ts"],"sourcesContent":["import { NextRequest, NextResponse } from \"next/server\";\r\nimport { getSessionCookie } from \"better-auth/cookies\";\r\n\r\nexport async function middleware(request: NextRequest) {\r\n  const sessionCookie = getSessionCookie(request);\r\n\r\n  if (!sessionCookie) {\r\n    return NextResponse.redirect(new URL(\"/login\", request.url));\r\n  }\r\n\r\n  return NextResponse.next();\r\n}\r\n\r\nexport const config = {\r\n  matcher: [\"/admin/:path*\"], // Specify the routes the middleware applies to\r\n};\r\n"],"names":[],"mappings":";;;;AAAA;AAAA;AACA;;;AAEO,eAAe,WAAW,OAAoB;IACnD,MAAM,gBAAgB,CAAA,GAAA,mKAAA,CAAA,mBAAgB,AAAD,EAAE;IAEvC,IAAI,CAAC,eAAe;QAClB,OAAO,6LAAA,CAAA,eAAY,CAAC,QAAQ,CAAC,IAAI,IAAI,UAAU,QAAQ,GAAG;IAC5D;IAEA,OAAO,6LAAA,CAAA,eAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;QAAC;KAAgB;AAC5B"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///D:/masterji/app/%28public%29/layout.tsx"],"sourcesContent":["import { ReactNode } from \"react\";\r\nimport { Navbar } from \"./_components/Navbar\";\r\n\r\nexport default function LayoutPublic({ children }: { children: ReactNode }) {\r\n  return (\r\n    <div>\r\n      <Navbar />\r\n      <main className=\"container mx-auto px-4 md:px-6 lg:px-8\">{children}</main>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;;;;;;;AAGe,SAAS,aAAa,EAAE,QAAQ,EAA2B;IACxE,qBACE,8OAAC;;0BACC,8OAAC;;;;;0BACD,8OAAC;gBAAK,WAAU;0BAA0C;;;;;;;;;;;;AAGhE","debugId":null}}]
+}

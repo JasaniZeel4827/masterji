@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/masterji/app/admin/courses/%5BcourseId%5D/edit/page.tsx"],"sourcesContent":["export default function EditRoute() {\r\n    return (\r\n        <div>\r\n            <h1>Edit Course: </h1>\r\n        </div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;kBACG,cAAA,8OAAC;sBAAG;;;;;;;;;;;AAGhB","debugId":null}}]
+}

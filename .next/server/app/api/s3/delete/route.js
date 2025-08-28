@@ -1,0 +1,16 @@
+const CHUNK_PUBLIC_PATH = "server/app/api/s3/delete/route.js";
+const runtime = require("../../../../chunks/[turbopack]_runtime.js");
+runtime.loadChunk("server/chunks/node_modules_next_4efea1b2._.js");
+runtime.loadChunk("server/chunks/node_modules_zod_v4_719ed6d0._.js");
+runtime.loadChunk("server/chunks/node_modules_@bufbuild_protobuf_dist_esm_7dc262b7._.js");
+runtime.loadChunk("server/chunks/node_modules_@arcjet_protocol_3e30244d._.js");
+runtime.loadChunk("server/chunks/8069e_@arcjet_analyze-wasm__virtual_arcjet_analyze_js_req_component_core_61afb403.js");
+runtime.loadChunk("server/chunks/node_modules_@arcjet_analyze-wasm__virtual_b8c05bbe._.js");
+runtime.loadChunk("server/chunks/node_modules_@arcjet_analyze-wasm_1fc95eb4._.js");
+runtime.loadChunk("server/chunks/node_modules_@connectrpc_connect_dist_esm_f3cd781d._.js");
+runtime.loadChunk("server/chunks/node_modules_undici_1ed0b26e._.js");
+runtime.loadChunk("server/chunks/node_modules_cc9c3e85._.js");
+runtime.loadChunk("server/chunks/[root-of-the-server]__94f220d0._.js");
+runtime.getOrInstantiateRuntimeModule("[project]/.next-internal/server/app/api/s3/delete/route/actions.js [app-rsc] (server actions loader, ecmascript)", CHUNK_PUBLIC_PATH);
+runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/s3/delete/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH);
+module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/s3/delete/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

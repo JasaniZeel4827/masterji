@@ -1,0 +1,39 @@
+{
+  "node": {
+    "602ae25c493e3d37a34dc6b6de53e9b8d48a4fd6e4": {
+      "workers": {
+        "app/admin/courses/[courseId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/courses/[courseId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/admin/courses/[courseId]/edit/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/courses/[courseId]/edit/page": "action-browser"
+      }
+    },
+    "60b8359d41c8065650cb6f52b786be68219905f2dc": {
+      "workers": {
+        "app/admin/courses/[courseId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/courses/[courseId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/admin/courses/[courseId]/edit/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/courses/[courseId]/edit/page": "action-browser"
+      }
+    },
+    "700713030716968c18fed91952970d3dba12a9f707": {
+      "workers": {
+        "app/admin/courses/[courseId]/edit/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/courses/[courseId]/edit/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/admin/courses/[courseId]/edit/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/admin/courses/[courseId]/edit/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "dhxd3mPiOXBnbGk+Me9x1IETBWZY44HHUaVQSLK/rxE="
+}
